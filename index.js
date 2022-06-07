@@ -21,7 +21,7 @@ const logger = require("./utils/log");
 
 const dashboard = http.createServer(function(_req, res) {
   res.writeHead(200, "OK", { "Content-Type": "text/plain" });
-  res.write("HI! Chào Admin Khánh");
+  res.write("HI! Chào Admin BLACK");
   res.end();
 });
 
